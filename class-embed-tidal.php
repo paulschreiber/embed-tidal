@@ -190,7 +190,7 @@ class Embed_Tidal {
 			return;
 		}
 
-		wp_enqueue_script( 'embed-tidal', 'https://embed.tidal.com/tidal-embed.js', [], EMBED_TIDAL_VERSION );
+		wp_enqueue_script( 'embed-tidal', 'https://embed.tidal.com/tidal-embed.js', [], EMBED_TIDAL_VERSION, false );
 	}
 
 	/**
